@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Il.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="calculator dark">
+      <div class="screen">
+        <span id="expression">4,900 + 15,910</span>
+        <div id="result">20,810</div>
+      </div>
+      <div class="voice-control">
+        <!-- Кнопка для активации голосового ввода -->
+        <button id="microphone">
+          <i class="bx bx-microphone"></i>
+        </button>
+      </div>
+      <div class="buttons">
+        <!-- Кнопки калькулятора -->
+        <button class="btn-clear">AC</button>
+        <button class="btn-plus-minus">+/-</button>
+        <button class="btn-percent">%</button>
+        <button class="operator">&divide;</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+
+        <button class="operator">&times;</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+
+        <button class="operator">-</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+
+        <button class="operator">+</button>
+        <button class="zero">0</button>
+        <button>.</button>
+        <button class="equal">=</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
