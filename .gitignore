@@ -1,4 +1,45 @@
 # Игнорировать временные файлы
 *.tmp
+*.swp
+*.swo
+*.bak
+*~
+
 # Игнорировать папку logs
 logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Игнорировать файлы окружения и конфигурации
+.env
+.env.local
+.env.*.local
+.DS_Store              # macOS системные файлы
+Thumbs.db              # Windows системные файлы
+
+# Игнорировать папку node_modules
+node_modules/          # папка с зависимостями Node.js
+
+# Игнорировать папку с результатами сборки
+dist/
+build/
+out/
+
+# Игнорировать файлы кэша и сессий
+.cache/
+*.session
+
+# Игнорировать файлы IDE и редакторов
+.vscode/               # настройки VS Code
+.idea/                 # настройки JetBrains (IntelliJ, PyCharm и др.)
+*.code-workspace       # файлы рабочих пространств VS Code
+
+# Игнорировать архивы и файлы бэкапов
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
+*.bak
